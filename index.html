@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Earth clock</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&display=swap" rel="stylesheet">
+
+
+
+	</head>
+
+	<body>
+		<header>
+
+		</header>
+		<section class="main">
+			<div class=bg-earth>
+				<video autoplay muted loop>
+					<source src="images/earth.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="mainContainer" id="conta1">
+					<div class="badge" id="title-earth">
+							<span>T</span>
+							<span>I</span>
+							<span>M</span>
+							<span>E</span>
+							<span>O</span>
+							<span>N</span>
+							<span>E</span>
+							<span>A</span>
+							<span>R</span>
+							<span>T</span>
+							<span>H</span>
+
+					</div>
+					<div class="clock1">
+							<span id="hour"></span>
+							<span id="minute"></span>
+							<span id="second"></span>
+					</div>
+					<div class="buttons">
+						<button class="up" onclick="goup()">Up</button>
+						<button class="down" onclick="godown()">Down</button>
+						<button class="right" onclick="goright()">Right</button>
+						<button class="lefto" onclick="goleft()">Left</button>
+					</div>
+			</div>
+		</section>
+		 <script src="scripts/main.js" defer> </script>
+	</body>
+</html>
