@@ -40,13 +40,13 @@ var boxTC = document.getElementById("conta1");
 var title = document.getElementById("title-earth"); 
 
 function godown() {
-	conta1.style.bottom	= 2 * movefastYd + "px" ;
+	conta1.style.bottom	= 2.5 * movefastYd + "px" ;
 	movefastYd --;
 	// how did this work o.o 
 }
 
 function goup() {
-	conta1.style.height = 2 + movefastYu + "px" ;
+	conta1.style.height = 2.5 * movefastYu + "px" ;
 	movefastYu ++;
 	
 }
